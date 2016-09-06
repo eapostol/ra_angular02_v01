@@ -49,6 +49,7 @@ not the directory in which it lives.
 Effectively that means that server.js can never be run
 from outside of /path/to/nodejs-module so it can't be daemonized */
 
+//  filename: join(PATHS.build,'bundle.js')
 module.exports = {
     entry: {
         src: join(PATHS.src, 'index.js')
@@ -58,8 +59,8 @@ module.exports = {
     },
     output: {
         path: process.cwd(),
-        publicPath: '/yourProjectName/',
-        filename: join(PATHS.build,'bundle.js')
+        publicPath: '/ra_angular02_v01/',
+        filename: 'bundle.js'
     },
     module: {
         loaders: [{
@@ -74,7 +75,7 @@ module.exports = {
         }, {
             test: /\.(eot|svg|ttf|woff|woff2)$/,
             include : PATHS.fonts,
-            loader: `file?name=/fonts/[name].[ext]`
+            loader: `filename=/fonts/[name].[ext]`
         }]
     },
     devtool: 'eval-source-map',

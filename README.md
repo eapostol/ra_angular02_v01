@@ -5,6 +5,12 @@ Course. It's based upon the minimalES6-V01 repo I created at
 
 https://github.com/eapostol/minimalES6-v01.git
 
+In addition, this repo attempts to merge the typeScript repo
+mentioned in the slides, at 
+
+https://github.com/Codesleuth/vscode-typescript-boilerplate
+
+
 THIS GIT URL is at https://github.com/eapostol/ra_angular02_v01 
 
 To use this repo:
@@ -37,5 +43,7 @@ This should create the node_modules folder and add the packages.
  hint: you may wish to make a branch called work in progress, separate
  from your master, so that your changes won't corrupt the "master"
  branch per se.
+ 
+
  
  Good luck :)

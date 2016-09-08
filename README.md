@@ -19,7 +19,7 @@ To use this repo:
 2. For the description, enter in any details such as "angular2 starter"
 3. Do not add a README or license.
 4. In your terminal / command prompt, create a folder that will host 
-the local copy of the repo files, calling it ra_angular02_v01 or 
+the local copy of the repo files, calling it **ra_angular02_v01** or 
 something that makes sense.
 5. Then enter the following in your terminal / command prompt
 
@@ -38,15 +38,20 @@ This should create the node_modules folder and add the packages.
 following the instructions on the slides.
 
  hint: you may wish to make a 'working' branch, for example,
-  calling it work_in_progress, separate
- from your master. Then changes won't affect the "master"
- branch per se ( and if you make a mistake you can always create another
- branch to work with).
+ calling it work_in_progress, separate from your master. 
+ Then changes won't affect the "master" branch per se 
+ ( and if you make a mistake you can always create another
+ branch to work with ).
  
-9. You may require / be asked to create a tslint.json file. a defaulit one can be 
-created in the command prompt/terminal by typing in the command
+9. You may require / be asked to create a tslint.json file. 
+A default one can be created in the command prompt/terminal by typing
+ in the command
 
 tslint --init
 
  
 Good luck :)
+
+
+the readme.md doc was edited in webstorm by jetbrains and 
+dillinger (http://www.dillinger.io)
